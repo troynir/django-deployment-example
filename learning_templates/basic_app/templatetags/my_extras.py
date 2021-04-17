@@ -1,6 +1,6 @@
 from django import template
 
-
+'''
 register = template.Library()
 @register.filter(name='cut')
 def cut(value,arg):
@@ -10,3 +10,4 @@ def cut(value,arg):
     return.replace(arg,'')
 
 #register.filter('cut',cut)
+'''
